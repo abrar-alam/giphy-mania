@@ -6,4 +6,4 @@ A Gif generator using AXIOS has been implemented. AXIOS has been used to make as
 * AXIOS
 * CSS
 ## Demo
-![working demo](demo.gif)# giphy-mania
+![working demo](demo.gif)
