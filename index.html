@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dark Gradient Theme</title>
+
+</head>
+<body>
+  <div class="api-credentialpage">
+    <h1>Please Enter API credential</h1>
+    <form class="api-form">
+      <!-- Text input field marked as required -->
+      <label for="api-key">API KEY:</label>
+      <input type="text" id="api-key" name="api-key" required>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <div class="main-page">
+    <div class="container">
+      <h1>Giffy Lookup</h1>
+  
+      <div class="search-container">
+        <input class="search-bar" type="text" placeholder="Search...">
+        <button class="red-button">Search</button>
+      </div>
+    </div>
+  
+    <div id="gif-container">
+        
+    </div>
+  </div>
+  
+  
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
